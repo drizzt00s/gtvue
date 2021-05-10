@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 import Header from './components/Header.vue'
 import Nav from './components/Nav.vue'
 import Footer from './components/Footer.vue'
@@ -21,8 +20,26 @@ export default {
   name: 'App',
   components: {
     Header,Nav,Footer,Content,Community,Slide
+  },
+  mounted:function(){
+     jQuery.ajax({
+        url:"http://localhost:3000/products",
+        type:"GET",
+        success:function(d){
+          alert(d.data);
+
+        },
+        error:function(jqXHR, textStatus,error){
+            if(error){
+              throw error;
+            }
+        }
+    })
+
+
   }
 }
+
 </script>
 
 <style>
