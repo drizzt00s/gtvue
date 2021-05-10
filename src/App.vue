@@ -2,8 +2,9 @@
   <div id="app">
     <Header />
     <Nav />
-    <!-- <Slide /> -->
+    <Slide />
     <Content />
+    <Community />
     <Footer />
   </div>
 </template>
@@ -13,12 +14,13 @@
 import Header from './components/Header.vue'
 import Nav from './components/Nav.vue'
 import Footer from './components/Footer.vue'
-// import Slide from './components/Slide.vue'
+import Slide from './components/Slide.vue'
 import Content from './components/Content.vue'
+import Community from './components/Community.vue'
 export default {
   name: 'App',
   components: {
-    Header,Nav,Footer,Content
+    Header,Nav,Footer,Content,Community,Slide
   }
 }
 </script>
@@ -26,7 +28,6 @@ export default {
 <style>
 /* @import '../public/css/public.css'; 
 @import '../public/css/fs_home.css';  */
-
 /* @import '../public/css/css.css';  */
 /* @import '../public/css/iconfont.css';  */
 /* @import '../public/css/media.css';  */

@@ -1645,7 +1645,7 @@
     </div>
     <div class="ob_nav_bar">
       <a class="header_logo" href="https://www.fs.com/">
-        <img width="72" height="35" src="https://img-en.fs.com/includes/templates/fiberstore/images/new-pc-img/fs-logo-pc.png" alt="Fs logo.svg"></a>
+        <img width="72" height="35" src="logo_vudj.png" alt="Fs logo.svg"></a>
       <ul class="header_main_firstul">
         <li class="header_main_list header_main_index_0">
           <p class="header_main_list_font">All Categories</p></li>
